@@ -5,3 +5,20 @@ The motivation behind this project is due to the fact that I manage my own inves
 
 # Discounted Cash Flow Explaination
 
+What Discounted Cash Flow(DCF) does is help you calculate the intrensic value of a stock, meaning calculating the vaule of the company today from all expected free cash flow from the future. There are a couple of things to know before we can use DCF.
+
+## Company must meet one of these 4 criteria before you can apply DCF calaculator:
+1. The company doesn't pay any dividends
+2. Company pays dividends but the dividends are very little in comparision to how much they can really pay out.
+3. Free cash flow aligns with company's profitablity (The company is profitable)
+4. Investor is taking a control prospective(Purchasing significant amount of shares)
+
+## Calculation
+There are 3 main sources for our data:
+1. Income Statement : Shows the company's revenues and expenses over a period of time. 
+2. Balance Sheet : A statement of the assets, liabilities, and capital of a business at a particular point in time.
+3. Cash Flow Statement: Shows you the actual cash being paid by and to the company for a given time period. 
+
+### The data we will need from each statements:
+
+
