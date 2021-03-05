@@ -5,6 +5,20 @@ P.S. I did this project before formally learning Pandas. I will be creating a Ve
 The motivation behind this project is due to the fact that I manage my own investment portfolio, and love learning about different ways to analyze and manage a portfolio. One of my favorite investment Youtube Channels (Learn to Invest) created a [Discounted Cash Flow explanation video](https://www.youtube.com/watch?v=fd_emLLzJnk&list=WL&index=9&t=631s&ab_channel=LearntoInvest) and an excel template to use for yourself. Every weekend I would use his excel template to quantitatively analyze companies I was interested in investing in. After learning Python, I knew life would be so much easier automating this process. Rather than spending an hour every weekend to determine what price to buy a company, I now spend seconds because of this script. It not only tells me the price to buy a company, it also gives me their average revenue growth rate, their buy price with their total debt factored in, their average free cashflow to net income margins, their average revenue to net income margins, their weight of asset, and their weight of debt all over a 10 year period. 
 
 
+# Features 
+
+This code takes in the company's ticker symbol as a string, your API key as a string, and your Required Rate of Return as an integer.
+
+It Outputs the information down below about the company passed in: 
+
+* The price to buy the company without their debt factored in.
+* The price to buy the company with their debt factored in.
+* A 10 year average of thier revenue growth rate.
+* A 10 year average of their net income margins.
+* A 10 year average of their revenue to net income margins.
+* The weight of their debt (0-100%)
+* The weight of their asset (0-100%)
+
 # Discounted Cash Flow Explaination
 
 What Discounted Cash Flow(DCF) does is it helps you calculate the intrensic value of a stock, meaning calculating the vaule of the company today from all expected free cash flow(free money the company will have) from the future. There are a couple of things to know before we can use DCF.
