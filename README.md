@@ -1,6 +1,8 @@
 # Discounted_Cash_Flow_Calculator: Project Overview
 
-The motivation behind this project is due to the fact that I manage my own investment portfolio, and love learning about different ways to analyze and manage a portfolio. One of my favorite investment Youtube Channels (Learn to Invest) created a [Discounted Cash Flow explanation video](https://www.youtube.com/watch?v=fd_emLLzJnk&list=WL&index=9&t=631s&ab_channel=LearntoInvest) and an excel template to use for yourself. Every weekend I would use his excel template to quantitatively analyze companies I was interested in investing in. After learning Python, I knew life would be so much easier automating this process. Rather than spending an hour every weekend to determine what price to buy a company, I now spend seconds because of this script. It not only tells me the price to buy a company, it also gives me their average revenue growth rate, their buy price with their total debt factored in, their average free cashflow to net income margins, their average revenue to net income margins, their weight of asset, and their weight of debt all over a 10 year period.
+P.S. I did this project before formally learning Pandas. I will be creating a Version 2.0 later down the road.
+
+The motivation behind this project is due to the fact that I manage my own investment portfolio, and love learning about different ways to analyze and manage a portfolio. One of my favorite investment Youtube Channels (Learn to Invest) created a [Discounted Cash Flow explanation video](https://www.youtube.com/watch?v=fd_emLLzJnk&list=WL&index=9&t=631s&ab_channel=LearntoInvest) and an excel template to use for yourself. Every weekend I would use his excel template to quantitatively analyze companies I was interested in investing in. After learning Python, I knew life would be so much easier automating this process. Rather than spending an hour every weekend to determine what price to buy a company, I now spend seconds because of this script. It not only tells me the price to buy a company, it also gives me their average revenue growth rate, their buy price with their total debt factored in, their average free cashflow to net income margins, their average revenue to net income margins, their weight of asset, and their weight of debt all over a 10 year period. 
 
 
 # Discounted Cash Flow Explaination
@@ -28,8 +30,17 @@ There are 3 main sources for our data:
 5. Net Income - The amount of money left over after the company passes for the cost of goods sold, selling, general and administrative expenses, operating expenses, depreciation, interest, taxes, and other expenses. (The company's profit)
 
 * From the CashFlow Statement we will need:
-1. Cash Flow from operating activities - The amount of money a company brings in from its ongoing, regular business activities, such as manufacturing and selling goods or providing a service to customers.
-2. Capital Expenditures - What a company spends on assets it needs to run the business.(i.e buillding,equipment,furnitures,vechiles,etc)
+1. Cash Flow from Operating Activities - The amount of money a company brings in from its ongoing, regular business activities, such as manufacturing and selling goods or providing a service to customers.
+2. Capital Expenditures - What a company spends on assets it needs to run the business.(i.e buillding,equipment,furnitures,vechiles,etc).
 3. Free Cash Flow - Cash Flow the company's make after accounting for Capital Expenditures. 
 
+* From the Balance Sheet Statement we will need:
+1. Short Term Debt - Debt that is due for the company within the next 12 months.
+2. Long Term Debt - Debt that is due in more than a year.
+3. Cash and Short Term Investments - The sum of the cash and short term investments(money can be quickly converted to cash) the company has.
 
+### Steps for calculation:
+1. Calculate the Free Cash Flow to Net Income Margins for the company. Free Cash Flow divided by Net Income.
+2. Figure out the Revenue Growth rate by subtracting the current year revenue minus the previous year revenue, divided by current revenue) ex: (rev2021 - rev2020)/rev2021).
+3.  Next we will need to calculate our Revenue to Net Income Margins by dividing Revenue by Net Income (Rev2019/NetIncome2019)
+4.  We will need to project the Net Income of the company will be over the next 4 years. We do this by
