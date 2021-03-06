@@ -62,3 +62,10 @@ There are 3 main sources for our data:
 6.  We can now project the Free Cash Flow the company will have over the next 4 years by using our projected Net Income from step 5 and the historic Free Cash Flow to Net Income margins from step 1.
 7.  Next we will need to understand 3 variables. First is Perpetual Growth Rate, which is how much we think the company will grow forever. For this I used 2.5% which is about the rate of inflation. Second is the Shares Outstanding, this is how much shares the company currently has issued in the stock market. Last is your Required Rate of Return(RROR) or discouted factor, this is how much return you want to get on your investment. With all of this we can now calculate the companies Terminal Value. We calculate this by taking the latest year of the projected Free Cash Flow we calaculated, multiple it by our Perpetual Growth rate and then divide by over required rate of return minus our perpetual growth rate. ((latest_free_cash_flow * perpetual_growth_rate)/(RROR-perpetual_growth_rate))
 8.  Lastly, we can now calculate the price to buy the company by taking your all the projected Free Cash Flow with plus Terminal Value and dividing by your required rate of return raised to the year of your projection that are in, then taking each output, sum them together and divide by the companies Shares Outstanding. This will give you the currently price of the company based off projected cash flow.
+
+# Install 
+
+* Requests
+* Pandas
+* Numpy
+* Matplotlib
