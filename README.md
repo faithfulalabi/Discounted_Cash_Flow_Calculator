@@ -69,4 +69,4 @@ There are 3 main sources for our data:
 * Pandas
 * Numpy
 * Matplotlib
-* Obtaining API Key [Click here](https://financialmodelingprep.com/developer/docs/)
+* Obtaining API Key [Click Here](https://financialmodelingprep.com/developer/docs/)
