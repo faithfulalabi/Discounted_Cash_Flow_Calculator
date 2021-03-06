@@ -70,3 +70,5 @@ There are 3 main sources for our data:
 * Numpy
 * Matplotlib
 * Obtaining API Key [Click Here](https://financialmodelingprep.com/developer/docs/)
+
+DISCLOSURE: I am not a financial advisor. The code and information written above are for learning purposes only. You are responsible for your own financial decisions.
