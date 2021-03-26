@@ -30,12 +30,14 @@ What Discounted Cash Flow(DCF) does is it helps you calculate the intrensic valu
 4. Investor is taking a control prospective(Purchasing significant amount of shares)
 
 ## Calculation
+
 There are 3 main sources for our data:
 1. The company's Income Statement - Shows the company's revenues and expenses over a period of time. 
 2. The company's Balance Sheet - A statement of the assets, liabilities, and capital of a business at a particular point in time.
 3. The company's Cash Flow Statement - Shows you the actual cash being paid by and to the company for a given time period. 
 
 ### The data we will need from each statements:
+
 * From the Income Statement we will need:
 1. Revenue - Tell you how much the company makes before any expenses.
 2. Interest Expense - Interest the company pays for their debts(i.e bonds,loans, or line of credit).
@@ -44,16 +46,19 @@ There are 3 main sources for our data:
 5. Net Income - The amount of money left over after the company passes for the cost of goods sold, selling, general and administrative expenses, operating expenses, depreciation, interest, taxes, and other expenses. (The company's profit)
 
 * From the CashFlow Statement we will need:
+
 1. Cash Flow from Operating Activities - The amount of money a company brings in from its ongoing, regular business activities, such as manufacturing and selling goods or providing a service to customers.
 2. Capital Expenditures - What a company spends on assets it needs to run the business.(i.e buillding,equipment,furnitures,vechiles,etc).
 3. Free Cash Flow - Cash Flow the company's make after accounting for Capital Expenditures. 
 
 * From the Balance Sheet Statement we will need:
+
 1. Short Term Debt - Debt that is due for the company within the next 12 months.
 2. Long Term Debt - Debt that is due in more than a year.
 3. Cash and Short Term Investments - The sum of the cash and short term investments(money can be quickly converted to cash) the company has.
 
 ### Steps for calculation:
+
 1. Calculate the Free Cash Flow to Net Income Margins for the company. Free Cash Flow divided by Net Income.
 2. Figure out the Revenue Growth rate by subtracting the current year revenue minus the previous year revenue, divided by current revenue) ex: (rev2021 - rev2020)/rev2021).
 3. Next we will need to project the revenue for the next 4 years based on the revenue growth rate we calculated above in step 2. Take the lastest revenue and multiple by growth rate calculate. 
