@@ -32,9 +32,9 @@ What Discounted Cash Flow(DCF) does is it helps you calculate the intrensic valu
 ## Calculation
 
 There are 3 main sources for our data:
-1. The company's Income Statement - Shows the company's revenues and expenses over a period of time. 
-2. The company's Balance Sheet - A statement of the assets, liabilities, and capital of a business at a particular point in time.
-3. The company's Cash Flow Statement - Shows you the actual cash being paid by and to the company for a given time period. 
+1. __The company's Income Statement__ - Shows the company's revenues and expenses over a period of time. 
+2. __The company's Balance Sheet__ - A statement of the assets, liabilities, and capital of a business at a particular point in time.
+3. __The company's Cash Flow Statement__ - Shows you the actual cash being paid by and to the company for a given time period. 
 
 ### The data we will need from each statements:
 
