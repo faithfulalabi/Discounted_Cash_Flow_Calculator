@@ -1,6 +1,3 @@
-# MacOS DS_Store files
-.DS_Store
-
 
 # Visual Studio Code files
 .vscode/*
@@ -40,3 +37,11 @@
 
 *.db
 **/mlruns/
+
+
+
+
+Companies_Analyzed/.DS_Store
+*.DS_Store
+.vscode/launch.json
+*.pyc
